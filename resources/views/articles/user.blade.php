@@ -18,7 +18,7 @@
             <input type="submit">
         </div>
     </form>
-    <ul id="singleArticle">
+    <ul id="userArticle">
 
     </ul>
 @stop

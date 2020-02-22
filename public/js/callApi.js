@@ -47,7 +47,7 @@ $(document).ready(function () {
                 }
             });
     });
-    var single = $('#singleArticle');
+    var singleUser = $('#userArticle');
     var js;
     var jsImg;
     $("#userArticle").submit(function (e) {
@@ -62,7 +62,7 @@ $(document).ready(function () {
                 jsImg = js.item_image.split(',');
                 for(i=1; i< jsImg.length; i++)
                 {
-                    single.append('<li><img src="../public/image/'  + jsImg[i] + '"></li>');
+                    singleUser.append('<li><img src="../public/image/'  + jsImg[i] + '"></li>');
                 }
             });
     });
