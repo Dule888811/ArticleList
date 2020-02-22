@@ -6,7 +6,7 @@
             {{$error}}<br>
         @endforeach
     @endif
-    <form action="{{route('articles.list','user.val')}}" method="GET">
+    <form action="" id="userArticle" method="GET">
         <div class="form-input">
             <label for="user">user:</label>
             <select id="user" name="user">
@@ -18,4 +18,7 @@
             <input type="submit">
         </div>
     </form>
+    <ul id="singleArticle">
+
+    </ul>
 @stop

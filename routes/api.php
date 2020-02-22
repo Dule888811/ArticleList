@@ -18,11 +18,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
   
 });  
 Route::post('/article/created',[
-    'uses' => 'API\ArticleController@store',
+    'uses' => 'API\ApiArticleController@store',
     'as' => 'article.store'
 ]);
 Route::get('/article/list',[
-    'uses' => 'API\ArticleController@index',
+    'uses' => 'API\ApiArticleController@index',
     'as' => 'articles.list'
 ]);
+
 

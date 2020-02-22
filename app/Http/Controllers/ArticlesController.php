@@ -38,6 +38,14 @@ class ArticlesController extends Controller
         $users = User::all();
         return view('articles.user')->with(['users' => $users]);
     }
-
+    public function edit()
+    {
+        return view('articles.edit');
+    }
+    public function store(Request $request, User $user)
+    {
+        $this->_articlesRepositories->store($request,$user);
+        return redirect()->route('home');
+    }
   
 }

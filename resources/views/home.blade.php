@@ -16,14 +16,18 @@
                    
                     <a href="{{route('articles.create')}}">Create new article</a>
                 <div></div>
-                    <a href="{{route('articles.list')}}">All</a>
+                    <a href="#" id="allA">All</a>
                         <div></div>
                         <a href="{{route('article')}}">Choose one article</a>
                         <div></div>
                         <a href="{{route('article.users')}}">Choose one article by author</a>
                 </div>
             </div>
+            <div class="displayResult">
+                <ul class="listArticle">
 
+                </ul>
+            </div>
   
         </div>
     </div>

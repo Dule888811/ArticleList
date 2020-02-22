@@ -10,9 +10,7 @@
         <form  method="post" action="#" id="upload_form" enctype="multipart/form-data">
             {{csrf_field()}}
 
-            <select name="user_id" id="user_id">
-                <option value={{\Auth::id()}}>{{\Auth::id()}}</option>
-            </select>
+
 
             <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
@@ -22,7 +20,7 @@
             </div>
 
             <div class="form-input">
-            <h2>Your blog</h2>
+                <h2>Your blog</h2>
                 <textarea name="blog" id="blog"  rows="4" cols="50"  id="{{\Auth::id()}}">Enter text here...</textarea>
             </div>
 
@@ -60,7 +58,7 @@
             </a>
 
             <div class="form-input">
-                <button type="submit" name="upload" id="upload" value="submit" >Submit</button>
+                <button type="submit" name="update" id="update" value="submit" >Submit</button>
             </div>
         </form>
 

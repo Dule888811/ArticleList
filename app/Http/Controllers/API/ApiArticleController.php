@@ -14,8 +14,7 @@ use Illuminate\Support\Facades\Auth;
 use  App\Http\Requests\ArticleRequest;
 use Illuminate\Validation\ValidationException;
 use FormRequestAlias;
-
-class ArticleController extends BaseController
+class ApiArticleController extends BaseController
 {
     public function index()
     {

@@ -6,11 +6,11 @@
             {{$error}}<br>
         @endforeach
     @endif
-<form action="{{route('articles.list','title.val')}}" method="GET">
+    <div id="articleSingle">
+<form action="#" method="GET" id="SingleForm">
     <div class="form-input">
         <label for="title">title:</label>
-        <select id="title" name="title">
-
+        <select id="titleSingle" name="title">
             @foreach($articles as $article)
                 <option  value="{{$article->id}}">{{$article->title}}</option>
             @endforeach
@@ -18,4 +18,7 @@
         <input type="submit">
     </div>
 </form>
+        <ul id="singleArticle">
+
+        </ul>
 @stop
