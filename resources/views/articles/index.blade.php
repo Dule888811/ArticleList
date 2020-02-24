@@ -21,4 +21,5 @@
         <ul id="singleArticle">
 
         </ul>
+        <a href ="{{route('home')}}">Main page</a>
 @stop

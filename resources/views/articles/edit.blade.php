@@ -6,8 +6,9 @@
             {{$error}}<br>
         @endforeach
     @endif
-    <div id="storeAricle">
-        <form  method="post" action="#" id="upload_form" enctype="multipart/form-data">
+    <div id="updateAricle">
+        <form  method="post" action="{{route('article.update',$article['id'])}}" id="upload_form" method="POST" enctype="multipart/form-data">
+            {{ method_field('PUT') }}
             {{csrf_field()}}
 
 
@@ -16,36 +17,37 @@
 
             <div class="form-input">
                 <label for="title">Title</label>
-                <input type="text" name="title" id="title">
+                <input  type="text" value="{{ $article['title'] }}" name="title" id="title">
             </div>
+
 
             <div class="form-input">
                 <h2>Your blog</h2>
-                <textarea name="blog" id="blog"  rows="4" cols="50"  id="{{\Auth::id()}}">Enter text here...</textarea>
+                <textarea name="blog"  id="blog"  rows="4" cols="50">Enter text here...</textarea>
             </div>
 
             <div class="form-input">
                 <label for="main_picture">main picture</label>
-                <input type="file" name="main_picture" id="main_picture">
+                <input type="file"  name="main_picture" id="main_picture">
             </div>
 
             <div class="wrapper" id="divImages">
 
                 <div class="form-input items">
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"   name="item_image[]">
                 </div>
                 <div class="form-input items" >
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"  name="item_image[]">
                 </div>
                 <div class="form-input items" >
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"  name="item_image[]">
                 </div>
                 <div class="form-input items" >
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"  name="item_image[]">
                 </div>
                 <div class="form-input items">
                     <label for="item_image">item image</label>
@@ -58,10 +60,10 @@
             </a>
 
             <div class="form-input">
-                <button type="submit" name="update" id="update" value="submit" >Submit</button>
+                <button type="submit" name="update" id="update" value="submit" >Update</button>
             </div>
         </form>
-
+        <a href ="{{route('home')}}">Main page</a>
     </div>
 
 @stop

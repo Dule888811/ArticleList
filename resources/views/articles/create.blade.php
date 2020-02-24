@@ -7,7 +7,7 @@
         @endforeach
     @endif
     <div id="storeAricle">
-        <form  method="post" action="#" id="upload_form" enctype="multipart/form-data">
+        <form  method="post" action="{{route('article.store')}}" id="upload_form" enctype="multipart/form-data">
             {{csrf_field()}}
 
             <select name="user_id" id="user_id">
@@ -35,19 +35,19 @@
 
                 <div class="form-input items">
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"  name="item_image[]">
                 </div>
                 <div class="form-input items" >
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"  name="item_image[]">
                 </div>
                 <div class="form-input items" >
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"  name="item_image[]">
                 </div>
                 <div class="form-input items" >
                     <label for="item_image[]">item image</label>
-                    <input type="file"  name="item_image">
+                    <input type="file"  name="item_image[]">
                 </div>
                 <div class="form-input items">
                     <label for="item_image">item image</label>
@@ -63,7 +63,7 @@
                 <button type="submit" name="upload" id="upload" value="submit" >Submit</button>
             </div>
         </form>
-
+        <a href ="{{route('home')}}">Main page</a>
     </div>
 
 @stop

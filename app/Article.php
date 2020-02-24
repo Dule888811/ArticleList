@@ -16,8 +16,8 @@ class Article extends Model
         return $this->belongsTo('App\Users');
     }
    
-    public function getMainPictureAttribute($main_picture){
+  /*  public function getMainPictureAttribute($main_picture){
         return asset($main_picture);
-    }
+    } */
 
 }
