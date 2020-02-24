@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Http\Controllers\API;
+namespace App\Repositories;
 
 
 use App\Article;

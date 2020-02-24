@@ -1,7 +1,6 @@
 <?php
 namespace App\Http\Controllers\API;
-
-
+use App\Repositories\ApiArticleControllerRepositoriesInterface;
 use Illuminate\Http\Request;
 use App\Http\Controllers\API\BaseController as BaseController;
 use Illuminate\Support\Eloquent;
@@ -12,7 +11,7 @@ class ApiArticleController extends BaseController
 {
     private $_apiArticleControllerRepositories;
 
-    public function __construct(ApiArticleControllerRepositories $apiArticleControllerRepositories)
+    public function __construct(ApiArticleControllerRepositoriesInterface $apiArticleControllerRepositories)
     {
         $this->_apiArticleControllerRepositories = $apiArticleControllerRepositories;
     }

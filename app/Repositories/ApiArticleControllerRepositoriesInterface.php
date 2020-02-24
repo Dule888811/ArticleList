@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\API;
+namespace App\Repositories;
 
 use Illuminate\Http\Request;
 
