@@ -6,6 +6,7 @@
             {{$error}}<br>
         @endforeach
     @endif
+    <div class="centerArticle">
     <form action="" id="userArticle" method="GET">
         <div class="form-input">
             <label for="user">user:</label>
@@ -13,12 +14,15 @@
 
                 @foreach($users as $user)
                     <option  value="{{$user->id}}">{{$user->name}}</option>
+                    <hr class="hrArticle">
                 @endforeach
             </select>
             <input type="submit">
         </div>
+        <a href ="{{route('home')}}">Main page</a>
     </form>
-    <ul id="userArticle">
+    <ul id="userAr">
 
     </ul>
+    </div>
 @stop

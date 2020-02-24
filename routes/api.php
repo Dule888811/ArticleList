@@ -25,5 +25,9 @@ Route::get('/article/list',[
     'uses' => 'API\ApiArticleController@index',
     'as' => 'articles.list'
 ]);
+Route::delete('article/deleted/{id}',[
+    'uses' => 'API\ApiArticleController@destroy',
+    'as' => 'articles.destroy'
+]);
 
 

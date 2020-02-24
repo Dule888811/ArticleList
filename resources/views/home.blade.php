@@ -21,6 +21,8 @@
                         <a href="{{route('article')}}">Choose one article</a>
                         <div></div>
                         <a href="{{route('article.users')}}">Choose one article by author</a>
+                        <div></div>
+                        <a href="{{route('article.author')}}">See your articles</a>
                 </div>
             </div>
             <div class="displayResult">

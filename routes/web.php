@@ -29,7 +29,25 @@ Route::get('article/users',[
     'uses' => 'ArticlesController@user',
     'as' => 'article.users'
 ]);
-
-
+Route::get('author',[
+    'uses' => 'ArticlesController@getArticleByUserId',
+    'as' => 'article.author'
+]);
+Route::get('article/edit/{id}',[
+    'uses' => 'ArticlesController@edit',
+    'as' => 'article.edit'
+]);
+Route::put('article/update/{id}',[
+    'uses' => 'ArticlesController@update',
+    'as' => 'article.update'
+]);
+Route::get('article/delete/{id}',[
+    'uses' => 'ArticlesController@delete',
+    'as' => 'article.delete'
+]);
+Route::get('home',[
+    'uses' => 'HomeController@index',
+    'as' => 'home'
+]);
 
 

@@ -8,7 +8,7 @@ $(document).ready(function () {
         event.preventDefault();
         divImages.append(' <div class="form-input-items">' +
             '<label for="item_image[]">item image</label>' +
-            '<input type="file"  name="item_image">' +
+            '<input type="file"  name="item_image[]">' +
             '</div>');
     });
     $.ajaxSetup({
@@ -38,56 +38,57 @@ $(document).ready(function () {
                 single.empty();
                 js = JSON.parse(JSON.stringify(response.data[0]));
                 single.append('<li>'  + js.title +    '</li>');
-                single.append('<li><img src="{{asset(\'js.main_picture\')}} "</li>');
+                single.append('<li><img src="../'  + js.main_picture + '"></li>')                                                         ;
                 single.append('<li>' + ' ' + js.text +' ' + '</li>');
                 jsImg = js.item_image.split(',');
                 for(i=1; i< jsImg.length; i++)
                 {
-                    single.append('<li><img src="../public/image/'  + jsImg[i] + '"></li>');
+                    single.append('<li><img src="../public/images/'  + jsImg[i] + '"></li>');
                 }
             });
     });
-    var singleUser = $('#userArticle');
+    var singleUser = $('#userAr');
     var js;
     var jsImg;
     $("#userArticle").submit(function (e) {
         e.preventDefault();
         $.ajax({ url: "/api/article/list?user=" + $('#user').val() , method: "GET" })
             .then(function (response) {
-                single.empty();
+                singleUser.empty();
                 js = JSON.parse(JSON.stringify(response.data[0]));
-                single.append('<li>'  + js.title +    '</li>');
-                single.append('<li><img src="{{asset(\'js.main_picture\')}} "</li>');
-                single.append('<li>' + ' ' + js.text +' ' + '</li>');
+                singleUser.append('<li>'  + js.title +    '</li>');
+                singleUser.append('<li><img src="../'  + js.main_picture + '"></li>');
+                singleUser.append('<li>' + ' ' + js.text +' ' + '</li>');
                 jsImg = js.item_image.split(',');
                 for(i=1; i< jsImg.length; i++)
                 {
-                    singleUser.append('<li><img src="../public/image/'  + jsImg[i] + '"></li>');
+                    singleUser.append('<li><img src="../public/images/'  + jsImg[i] + '"></li>');
                 }
             });
     });
-     $("#upload_form").submit(function (e) {
+    var authorUser = $('#author');
+    var js;
+    var jsImg;
+    $("#authorForm").submit(function (e) {
         e.preventDefault();
-        var user_id = $('#user_id');
-        var title = $('#title');
-        var blog = $('#blog');
-        var item_image = $('.item_image');
-        var main_picture = $('#main_picture');
-
-
-
-        var order = {
-            user_id: user_id.val(),
-            title: title.val(),
-            main_picture: main_picture.val(),
-            item_image: item_image.val(),
-
-    }
-
-
-        $.ajax({ url: '../api/article/created', method: 'POST', data: order })
+        $.ajax({  url: "api/article/list?title=" + $('#authorSingle').val() , method: "GET" })
             .then(function (response) {
-                alert('predmet je dodat');
+                authorUser.empty();
+                js = JSON.parse(JSON.stringify(response.data[0]));
+                authorUser.append('<li>'  + js.title +    '</li>');
+                authorUser.append('<li><img src="../'  + js.main_picture + '"></li>');
+                authorUser.append('<li>' + ' ' + js.text +' ' + '</li>');
+                jsImg = js.item_image.split(',');
+                for(i=1; i< jsImg.length; i++)
+                {
+                    authorUser.append('<li><img src="../public/images/'  + jsImg[i] + '"></li>');
+                }
+                authorUser.append('<a class="btn btn-primary" href="article/edit/' + js.id + '"><li>edit</li></a>')
+                authorUser.append('<a class="btn btn-primary"  id="deleteArtivle"  href="article/delete/' + js.id + '"><li>delete</li></a>')
             });
+
+
     });
+
+
 });
