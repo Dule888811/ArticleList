@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84f61104-e515-420a-aa29-9b1ab26b8ca5" name="Default Changelist" comment="" />
+    <list default="true" id="84f61104-e515-420a-aa29-9b1ab26b8ca5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositoriesInterface.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositories.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Repositories/ArticlesRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-end-line="3" selection-end-column="27" />
               <folding>
                 <element signature="e#38#54#0#PHP" expanded="true" />
               </folding>
@@ -34,26 +33,42 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/ApiArticleController.php">
+        <entry file="file://$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositories.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/more.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositoriesInterface.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/ApiArticleController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+              <folding>
+                <element signature="e#42#105#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/more.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -74,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Providers/RepositoriesServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="153">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding>
                 <element signature="e#34#88#0#PHP" expanded="true" />
               </folding>
@@ -149,11 +164,11 @@
         <option value="$PROJECT_DIR$/public/js/callApi.js" />
         <option value="$PROJECT_DIR$/app/Repositories/API/ApiArticleControllerRepositories.php" />
         <option value="$PROJECT_DIR$/app/Repositories/API/ApiArticleControllerRepositoriesInterface.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositories.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositoriesInterface.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/API/ApiArticleController.php" />
         <option value="$PROJECT_DIR$/app/Providers/RepositoriesServiceProvider.php" />
         <option value="$PROJECT_DIR$/public/css/more.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/API/ApiArticleController.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositories.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositoriesInterface.php" />
       </list>
     </option>
   </component>
@@ -243,9 +258,9 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-20" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="44" />
+    <option name="y" value="33" />
     <option name="width" value="992" />
     <option name="height" value="647" />
   </component>
@@ -270,6 +285,18 @@
             <path>
               <item name="LaravelApiArticle" type="b2602c69:ProjectViewProjectNode" />
               <item name="LaravelApiArticle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaravelApiArticle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelApiArticle" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaravelApiArticle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaravelApiArticle" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -282,11 +309,14 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Repositories" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\LaravelApiArticle\app\Repositories" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\LaravelApiArticle\app\Repositories" />
       <recent name="C:\xampp\htdocs\LaravelApiArticle\app\Repositories\API" />
@@ -331,12 +361,13 @@
       <workItem from="1582501361762" duration="1912000" />
       <workItem from="1582547565582" duration="1333000" />
       <workItem from="1582549332094" duration="727000" />
-      <workItem from="1582551982054" duration="1143000" />
+      <workItem from="1582551982054" duration="1739000" />
+      <workItem from="1582559168497" duration="943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124779000" />
+    <option name="totallyTimeSpent" value="126318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,9 +379,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-20" y="40" width="992" height="647" extended-state="0" />
+    <frame x="44" y="33" width="992" height="647" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49902913" visible="true" weight="0.3444206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49902913" visible="true" weight="0.35193133" />
       <window_info id="Structure" order="1" sideWeight="0.5009709" side_tool="true" weight="0.31545064" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -665,29 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositories.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/ArticlesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#38#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/ApiArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositoriesInterface.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -699,16 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RepositoriesServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#34#88#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,7 +728,51 @@
     <entry file="file://$PROJECT_DIR$/public/css/more.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/ArticlesRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-end-line="3" selection-end-column="27" />
+          <folding>
+            <element signature="e#38#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/ApiArticleControllerRepositoriesInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/API/ApiArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="e#42#105#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/RepositoriesServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#34#88#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
